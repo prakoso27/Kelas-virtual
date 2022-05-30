@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SignUp</title>
+</head>
+<body>
+<a href="index.html">Home</a>
+	<h1>Register</h1>
+<div>
+	<!--get untuk menampilkan hasil input, POST jika sudah ada backend, action="action.php" -->
+<form method="GET">
+	First Name : <input type="text" name="firstname" required><br>
+	Last Name : <input type="text" name="lastname" required><br>
+	E-Mail : <input type="email" name="email" required><br>
+	Password : <input type="password" name="password" minlength="6"><br>
+	Date : <input type="date" name="date"><br>
+	Gander : <input type="radio" name="gender" value="male">Male <input type="radio" name="gender" value="female">Female<br>
+	Grade : 
+	<select name="grade">
+		<option value="SD">SD</option>
+		<option value="SMP">SMP</option>
+		<option value="SMA">SMA</option>
+	</select><br>
+	Interest :<br>
+	<input type="checkbox" name="interest" value="math">Math <br>
+	<input type="checkbox" name="interest" value="phisic">Phisic <br>
+	<input type="checkbox" name="interest" value="coding">Coding <br>
+	<input type="submit" value="SignUp">
+	<input type="reset">
+</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+	background-color: #FFF200;
+}
+
+h1{
+	color: blueviolet;
+	text-align: center;
+	border: solid rgba(0,0,0,0.5);
+	cursor: pointer;
+	font-family: 'Anton', sans-serif;
+	font-size: 5em;
+}
+
+.menubar{
+list-style: none;
+	display: inline-block;
+	text-align: right;
+}
+
+#menubar{
+	text-align: right;
+}
+
